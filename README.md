@@ -1,0 +1,3 @@
+# .tmux
+
+My tmux dotfiles.
