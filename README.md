@@ -14,10 +14,9 @@ should be intuitive.
 
 The below commands will download the project, and setup tmux.
 
-**NOTE**: These instructions assume you already have `tmux` installed on your
-operating system.
-
 ``` bash
-$ git clone git@github.com:rdegges/dot-tmux.git ~/.tmux
-$ ln -s ~/.tmux/tmux.conf ~/.tmux.conf
+sudo apt install tmux
+
+git clone git@github.com:rdegges/dot-tmux.git ~/.tmux
+ln -s ~/.tmux/tmux.conf ~/.tmux.conf
 ```
