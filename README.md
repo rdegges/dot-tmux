@@ -14,10 +14,19 @@ should be intuitive.
 
 The below commands will download the project, and setup tmux.
 
-``` bash
+```bash
 sudo apt install tmux
 
 mkdir -p ~/Drive/Sync/Dotfiles
 git clone git@github.com:rdegges/dot-tmux.git ~/Drive/Sync/Dotfiles/tmux
 ln -s ~/Drive/Sync/Dotfiles/tmux/tmux.conf ~/.tmux.conf
+```
+
+
+## Usage
+
+To use tmux, run:
+
+```bash
+tmux
 ```
