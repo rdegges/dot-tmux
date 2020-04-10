@@ -17,6 +17,7 @@ The below commands will download the project, and setup tmux.
 ``` bash
 sudo apt install tmux
 
-git clone git@github.com:rdegges/dot-tmux.git ~/.tmux
-ln -s ~/.tmux/tmux.conf ~/.tmux.conf
+mkdir -p ~/Drive/Sync/Dotfiles
+git clone git@github.com:rdegges/dot-tmux.git ~/Drive/Sync/Dotfiles/tmux
+ln -s ~/Drive/Sync/Dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
